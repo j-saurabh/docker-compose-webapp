@@ -11,7 +11,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Message from Backend:</h1>
+      <h1>Message from Backend</h1>
+      <h3>This is the message coming from backend, if you are seeing this message, then application is running fine</h3>
       <p>{message}</p>
     </div>
   );
